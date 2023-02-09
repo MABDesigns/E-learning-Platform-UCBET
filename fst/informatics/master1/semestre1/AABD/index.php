@@ -43,7 +43,6 @@
     font-size: 30px;
   }
 }
-
     </style>
   <button id="toggleDarkMode">
       <i class="fa-solid fa-moon" id="icon"></i>
