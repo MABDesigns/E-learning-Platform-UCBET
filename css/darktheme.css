@@ -1,0 +1,44 @@
+body.dark-mode{
+    background-color: rgb(38, 38, 38);
+    color: white;
+  }
+  .dark-mode .card-body{
+    background: black !important;
+  }
+  .dark-mode #textimg{
+    color: white !important;
+  }
+  .dark-mode .bg-light{
+    background: rgb(0, 0, 0) !important;
+  }
+  .dark-mode a{
+    color: white !important;
+  }
+  .dark-mode .breadcrumb-item.active{
+    color: white !important;
+  }
+  button#toggleDarkMode {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    background: green;
+    border-radius: 50%;
+    z-index: 5;
+  }
+  .fa-moon{
+    font-size: 40px;
+    
+  }
+  .fa-sun{
+    font-size: 40px;
+    color: white;
+    
+  }
+  .dark-mode .list-group-flush > .list-group-item{
+    background: rgb(38, 38, 38);
+  }

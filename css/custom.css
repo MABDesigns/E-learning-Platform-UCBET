@@ -1,0 +1,21 @@
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .list-group-item a {
+    background: linear-gradient(to right, #6dfa7b, #a4c0cd);
+    border-radius: 1rem;
+    color: white;
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    width: 100%;
+    transition: all 0.2s ease-in-out !important;
+  }
+  
+  .list-group-item a:hover {
+    background: linear-gradient(to left, #00b0ff, #00b0ff) !important;
+    cursor: pointer !important;
+  }
